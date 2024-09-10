@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --light-blue: #E0EDED;
+    --pink: #E76D83;
+    --grey: #363537;
+    --orange: #F1A259;
+    --white: #F5F5F5;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-blue);
+    font-family: Nunito;
+    width: 100vw;
+    overflow: hideen;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    gap: 100px;
+    position: absolute;
+    width: 100vw;
+}
+nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--pink);
+    font-size: 18px;
+    transition-duration: 300ms;
+}
+nav a:hover {
+    color: var(--orange);
+    transform: scale(1.03);
+    transition-duration: 300ms;
+}
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    pointer-events: none;
+}
+.landing-text {
+    margin-top: 170px;
+    padding-left: 80px;
+    cursor: default;
+    z-index: 2;
+}
+.landing-text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.landing-text p {
+    font-size: 23px;
+    color: var(--pink);
+}
+.landing-text em {
+    color: var(--orange);
+    font-weight: 600;
+}
+#landing-intro {
+    transform: translateX(50px);
+}
+#wave {
+    position: absolute;
+    animation: rotate linear 0.6s 2;
+}
+.landing-text:hover #wave{
+    animation: rotate linear 0.6s infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(8deg);
+    }
+    75% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.landing-scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    padding-bottom: 20px;
+    z-index: 2;
+}
+#scroll-text {
+    color: var(--pink);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: default;
+}
+#scroll-arrow {
+    color: var(--pink);
+    width: 40px;
+}
+#scroll-arrow {
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2.5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+#clouds {
+    width: 100vw;
+    height: 100%;
+}
+.landing-clouds {
+    transform: translateY(250px);
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 1;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40vh 6vw;
+}
+
+.project {
+    width: 46.5%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: 300ms;
+    position: relative;
+    margin-bottom: -22vh;
+}
+.left {
+    align-self: flex-start;
+}
+.right {
+    align-self: flex-end;
+}
+.project-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 75%;
+    border-radius: 20px;
+    transition-duration: 300ms;
+    overflow: hidden;
+}
+.project-image:hover {
+    cursor: pointer;
+    transition-duration: 300ms;
+    background-color: var(--pink);
+    background-blend-mode: screen;
+}
+.left .project-image:hover {
+    background-color: var(--orange);
+    background-blend-mode: screen;
+}
+.project-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top ;
+    z-index: 2;
+    transition-duration: 300ms;
+}
+.project-image:hover img{
+    transform: scale(1.02);
+    transition-duration: 300ms;
+    cursor: pointer;
+    filter: opacity(0.35) blur(8px);
+}
+
+
+.project-text {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 3;
+    border-radius: 20px;
+    background-color: var(--white);
+    background-blend-mode: soft-light;
+    margin-bottom: 0.5%;
+}
+.right .project-text {
+    align-items: flex-end;
+}
+.right .project-description {
+    text-align: right;
+}
+.project-name {
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--pink);
+    margin: 0 0 5px 0;
+    padding: 0 20px 0 0;
+}
+.left .project-name {
+    color: var(--orange);
+    padding: 0 0 0 20px;
+}
+.project-name strong {
+    font-weight: 700;
+    color: var(--grey);
+}
+.project-description {
+    margin: 0;
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--grey);
+    padding: 0 20px 0 0;
+}
+.left .project-description {
+    padding: 0 0 0 20px;
+}
+.project-skills {
+    opacity: 0;
+    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--white);
+    margin: 0;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 75%;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 300ms;
+}
+.project-image:hover .project-skills {
+    opacity: 100%;
+    transition-duration: 300ms;
+}
+.project-view-more {
+    margin: 0;
+    color: var(--pink);
+    font-weight: 700;
+    transition-duration: 200ms;
+    text-decoration: none;
+}
+.project-view-more:hover {
+    transform: scale(1.02);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+
+footer {
+    height: 120px;
+    background-color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1vh 2vw 3vh 2vw;
+}
+.footer-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-left: 20px;
+    color: var(--white);
+}
+.footer-left p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+.footer-middle {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition-duration: 300ms;
+}
+.footer-middle img:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    cursor: pointer;
+
+}
+.footer-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--white);
+    font-weight: 600;
+    gap: 15px;
+}
+.footer-right p {
+    font-size: 15px;
+    margin: 0;
+}
+#footer-contact {
+    font-size: 25px;
+    font-weight: 800;
+}
+
