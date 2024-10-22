@@ -4,8 +4,9 @@
     --light-blue: #E0EDED;
     --pink: #E76D83;
     --grey: #363537;
-    --orange: #F1A259;
+    --dark-orange: #F1A259;
     --white: #F5F5F5;
+    --orange: #F1B780;
 }
 html {
     scroll-behavior: smooth;
@@ -26,6 +27,7 @@ nav {
     gap: 100px;
     position: absolute;
     width: 100vw;
+    z-index: 1;
 }
 nav a {
     font-weight: 600;
@@ -47,7 +49,6 @@ nav a:hover {
     height: 100vh;
     width: 100%;
     position: relative;
-    pointer-events: none;
 }
 .landing-text {
     margin-top: 170px;
@@ -141,6 +142,7 @@ nav a:hover {
     width: 100vw;
     height: 100%;
     z-index: 1;
+    pointer-events: none;
 }
 
 #projects-container {
@@ -148,7 +150,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 40vh 6vw;
+    margin: 40vh 6vw;
 }
 
 .project {
@@ -184,7 +186,7 @@ nav a:hover {
     background-blend-mode: screen;
 }
 .left .project-image:hover {
-    background-color: var(--orange);
+    background-color: var(--dark-orange);
     background-blend-mode: screen;
 }
 .project-image img {
@@ -264,7 +266,23 @@ nav a:hover {
     align-items: center;
     transition-duration: 300ms;
 }
-.project-image:hover .project-skills {
+.coming-soon {
+    opacity: 0;
+    display: flex;
+    font-size: 18px;
+    font-weight: 650;
+    color: var(--white);
+    margin: 0;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 70%;
+    pointer-events: none;
+    justify-content: center;
+    align-items: flex-end;
+    transition-duration: 300ms;
+}
+.project-image:hover .project-skills, .project-image:hover .coming-soon {
     opacity: 100%;
     transition-duration: 300ms;
 }
@@ -300,6 +318,15 @@ footer {
     padding-left: 20px;
     color: var(--white);
 }
+#footer-logo:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+#footer-logo{
+    transition-duration: 300ms;
+}
+
 .footer-left p {
     font-size: 15px;
     font-weight: 600;
@@ -316,7 +343,9 @@ footer {
     transform: scale(1.05);
     transition-duration: 300ms;
     cursor: pointer;
-
+}
+.footer-middle img{
+    transition-duration: 300ms;
 }
 .footer-right {
     width: 30%;
@@ -334,5 +363,14 @@ footer {
 #footer-contact {
     font-size: 25px;
     font-weight: 800;
+}
+#footer-email {
+    text-decoration: none;
+    color: var(--white);
+    transition-duration: 300ms;
+}
+#footer-email:hover {
+    transform: scale(1.02);
+    transition-duration: 300ms;
 }
 
