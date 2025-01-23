@@ -8,9 +8,9 @@ function Header() {
   return (
     <>
       <nav>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/home">
+        <a href="/">Home</a>
+        <HashLink to="/about">About</HashLink>
+        <a href="/">
           <img src={wendyPurple} style={{height: '45px', width: 'auto'}} />
         </a>
         <HashLink smooth to="/home#projects">Projects</HashLink>
