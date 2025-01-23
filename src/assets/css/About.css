@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --beige: #f2ebe7;
+  --purple: #b6a0c9;
+  --grey: #4c403a;
+  --green: #99b68b;
+  --white: #f5f5f5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--beige);
+}
+
+.background {
+    height: 120vh;
+    position: absolute;
+    width: 100vw; 
+    overflow: hidden;
+    z-index: -1;
+}
+#back-cloud1 {
+    top: 0px;
+    animation: move 40s linear 0s infinite;
+    width: 500px;
+    height: auto;
+}
+#back-cloud2 {
+    top: 22vh;
+    animation: move 60s linear 0s infinite;
+    width: 750px;
+    height: auto;
+}
+#back-cloud3 {
+    top: 30vh;
+    animation: move 30s linear 0s infinite;
+    width: 600px;
+    height: auto;
+}
+#back-cloud4 {
+    top: 50vh;
+    animation: move 30s linear 0s infinite;
+    width: 550px;
+    height: auto;
+}
+@-webkit-keyframes move {
+    from {
+      left: -20%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+
+.about-container {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Karla;
+}
+.about-image-container {
+    width: 320px;
+    height: 420px;
+    background-color: var(--white);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-3deg);
+}
+#about-image {
+    width: 85%;
+    height: 68%;
+    object-fit: cover;
+}
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5% 10% 0 10%;
+}
+.image-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+.image-title .name {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--grey);
+    margin: 0;
+}
+.description {
+    margin: 3% 0 0 0;
+    font-size: 15px;
+    color: var(--purple);
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: var(--grey);
+    width: 50vw;
+}
+.about-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--green);
+    margin: 0 0 3% 10%;
+}
+.about-text {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 0 0 10%;
+}
+.about-text.passions {
+    margin: 2% 0 2% 10%;
+}
+.passion-list {
+    margin: 0 0 0 5%;
+}
+.passion-list span {
+    font-weight: 600;
+    color: var(--green);
+}
+.skills {
+    height: 30vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+    font-family: Karla;
+    color: var(--white);
+}
+.skills-container {
+    height: 30vh;
+    width: 73vw;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+.skills-title {
+    align-self: flex-start;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 2% 7%;
+}
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    align-items: center;
+    margin: 0;
+    width: 90%;
+}
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 300px;
+}
+.skills-column p {
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: left;
+}

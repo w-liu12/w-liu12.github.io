@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+    --beige: #F2EBE7;
+    --purple: #B6A0C9;
+    --grey: #4C403A;
+    --green: #99B68B;
+    --white: #F5F5F5;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    gap: 8vw;
+    position: absolute;
+    width: 100vw;
+    font-family: Karla;
+}
+
+nav a {
+    font-weight: 450;
+    text-decoration: none;
+    color: var(--purple);
+    font-size: 18px;
+    transition-duration: 200ms;
+}
+
+nav a:hover {
+    color: var(--green);
+    transform: scale(1.03);
+    transition-duration: 200ms;
+}

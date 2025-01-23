@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+    --beige: #F2EBE7;
+    --purple: #B6A0C9;
+    --grey: #4C403A;
+    --green: #99B68B;
+    --white: #F5F5F5;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-left {
+    margin: 0 0 2vh 2vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-left: 20px;
+    color: var(--white);
+}
+#footer-logo:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+#footer-logo{
+    transition-duration: 300ms;
+}
+
+.footer-left p {
+    font-family: Karla;
+    font-size: 15px;
+    font-weight: 450;
+    margin: 0;
+}
+.footer-middle {
+    margin: 0 0 2vh 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition-duration: 300ms;
+}
+.footer-middle img:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+.footer-middle img{
+    transition-duration: 300ms;
+}
+.footer-right {
+    margin: 0 2vw 2vh 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--white);
+    gap: 15px;
+}
+#footer-contact {
+    margin: 0;
+    font-family: Inconsolata;
+    font-size: 22px;
+    font-weight: 600;
+}
+#footer-email {
+    font-family: Karla;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--white);
+    transition-duration: 300ms;
+}
+#footer-email:hover {
+    transform: scale(1.02);
+    text-decoration: underline;
+    transition-duration: 300ms;
+}
+
