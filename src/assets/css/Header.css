@@ -32,3 +32,32 @@ nav a:hover {
     transform: scale(1.03);
     transition-duration: 200ms;
 }
+.header-logo {
+    height: 45px;
+    width: auto;
+}
+
+@media (min-width: 320px) {
+    nav {
+        gap: 5vw;
+    }
+    
+    nav a {
+        font-size: 16px;
+    }
+    .header-logo {
+        height: 35px;
+    }
+}
+@media (min-width: 600px) {
+    nav {
+        gap: 10vw;
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+    .header-logo {
+        height: 40px;
+    }
+}

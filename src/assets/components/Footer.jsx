@@ -22,7 +22,7 @@ function Footer() {
             title="github"
             target="_blank"
           >
-            <img src={github} style={{height: '30px', width: 'auto'}} />
+            <img className="footer-button" src={github} />
           </a>
           <a
             href="http://www.linkedin.com/in/wendy--liu"
@@ -30,8 +30,7 @@ function Footer() {
             title="linkedin"
             target="_blank"
           >
-            <img src={linkedin} 
-              style={{height: '30px', width: 'auto'}}
+            <img className="footer-button" src={linkedin} 
             />
           </a>
           <a
@@ -40,8 +39,7 @@ function Footer() {
             title="resume"
             target="_blank"
           >
-            <img src={resume} 
-              style={{height: '30px', width: 'auto'}}
+            <img className="footer-button" src={resume} 
             />
           </a>
         </div>

@@ -106,74 +106,74 @@ body {
   margin-right: 5vw;
 }
 .cloud-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 .cloud-image {
-    width: auto;
-    height: 30vh;
-    position: relative;
-    opacity: 80%;
+  width: auto;
+  height: 30vh;
+  position: relative;
+  opacity: 80%;
 }
 .cloud1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 #cloud1 {
-    left: -20vh;
-    bottom: -18vh;
-    height: 50vh;
+  left: -20vh;
+  bottom: -18vh;
+  height: 50vh;
 }
 .cloud2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 #cloud2 {
-    right: -30vh;
-    bottom: -20vh;
-    height: 45vh;
+  right: -30vh;
+  bottom: -20vh;
+  height: 45vh;
 }
 .cloud3 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 #cloud3 {
-    right: -40vh;
-    bottom: 13vh;
-    height: 35vh;
+  right: -40vh;
+  bottom: 13vh;
+  height: 35vh;
 }
 .cloud4 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 #cloud4 {
-    left: -20vh;
-    bottom: 38vh;
-    height: 18vh;
+  left: -20vh;
+  bottom: 38vh;
+  height: 18vh;
 }
 .cloud5 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 #cloud5 {
-    right: 8vh;
-    top: 18vh;
-    height: 12vh;
+  right: 8vh;
+  top: 18vh;
+  height: 12vh;
 }
 .cloud6 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 #cloud6 {
-    right: -18vh;
-    height: 35vh;
+  right: -18vh;
+  height: 35vh;
 }
 a {
   text-decoration: none;
@@ -182,4 +182,21 @@ a:hover {
   cursor: pointer;
 }
 
+@media (min-width: 320px) and (max-width: 599px){
+  .landing-text h1 {
+    font-size: 25px;
+  }
 
+  .landing-text p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1000px){
+  .landing-text h1 {
+    font-size: 35px;
+  }
+
+  .landing-text p {
+    font-size: 17px;
+  }
+}
