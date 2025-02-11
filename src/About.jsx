@@ -11,10 +11,10 @@ function About() {
     <>
       <Header />
       <div className="background">
-        <img src={cloud} class="cloud-image" id="back-cloud1"/>
-        <img src={cloud} class="cloud-image" id="back-cloud2"/>
-        <img src={cloud} class="cloud-image" id="back-cloud3"/>
-        <img src={cloud} class="cloud-image" id="back-cloud4"/>
+        <img src={cloud} className="cloud-image" id="back-cloud1"/>
+        <img src={cloud} className="cloud-image" id="back-cloud2"/>
+        <img src={cloud} className="cloud-image" id="back-cloud3"/>
+        <img src={cloud} className="cloud-image" id="back-cloud4"/>
       </div>
       <div className="about-container">
         <div className="about-image-container">

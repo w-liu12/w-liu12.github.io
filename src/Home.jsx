@@ -9,6 +9,7 @@ import wonderbottle from "./assets/img/wonder-bottle.png";
 import wonderreprint from "./assets/img/wonder-reprint.png";
 import xroads from "./assets/img/xroads.png";
 import nom from "./assets/img/nom.png";
+import mobius from "./assets/img/mobius.png";
 import cloud from "./assets/img/cloud.png";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
@@ -16,7 +17,7 @@ function Home() {
   // const ref = useRef();
   return (
     <>
-      <Parallax pages={4.05}>
+      <Parallax pages={4.2}>
         <ParallaxLayer offset={0} speed={0.5} className="landing-page">
           <Header />
           <div className="landing-text">
@@ -37,44 +38,54 @@ function Home() {
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.73} className="cloud">
           <div className="cloud-container cloud1">
-            <img src={cloud} class="cloud-image" id="cloud1"/>
+            <img src={cloud} className="cloud-image" id="cloud1"/>
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.4} className="cloud">
           <div className="cloud-container cloud2">
-            <img src={cloud} class="cloud-image" id="cloud2"/>
+            <img src={cloud} className="cloud-image" id="cloud2"/>
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.2} className="cloud">
           <div className="cloud-container cloud3">
-            <img src={cloud} class="cloud-image" id="cloud3"/>
+            <img src={cloud} className="cloud-image" id="cloud3"/>
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.6} className="cloud">
           <div className="cloud-container cloud4">
-            <img src={cloud} class="cloud-image" id="cloud4"/>
+            <img src={cloud} className="cloud-image" id="cloud4"/>
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.3} className="cloud">
           <div className="cloud-container cloud5">
-            <img src={cloud} class="cloud-image" id="cloud5"/>
+            <img src={cloud} className="cloud-image" id="cloud5"/>
           </div>
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={1}
-          factor={2.9}
+          offset={0.9}
+          factor={2.8}
           speed={0.05}
           className="projects-container"
           id="projects"
           style={{ top: "0" }}
         >
           <Project
+            image={mobius}
+            company="Möbius"
+            title="Product Development"
+            description="Designed and prototyped an SAT prep B2B SAAS startup with a team of 6."
+            skills="UI/UX Design | Product Design | Prototyping"
+            link="https://www.figma.com/slides/vKKqbCyIpC9SP1sOLR6LCa/12%2F12%2F24-M%C3%B6bius-Slide-Deck?node-id=2071-193&t=9ESeQMQrnfuEBifO-1"
+            className="purple"
+          />
+          <Project
             image={nom}
             company="Nomado"
             title="Website Redesign"
             description="Developed a website following a rebrand to cater towards a new customer base."
             skills="UI/UX Design | Web Development | Internship"
+            link="https://pine-canid-a47.notion.site/Nomado-Website-Redesign-18a8814b18e580cba0acdf1f4ede345c?pvs=4"
             className="green"
           />
           <Project
@@ -112,10 +123,10 @@ function Home() {
         </ParallaxLayer>
         <ParallaxLayer offset={2.3} speed={-0.5} className="cloud">
           <div className="cloud-container cloud6">
-            <img src={cloud} class="cloud-image" id="cloud6"/>
+            <img src={cloud} className="cloud-image" id="cloud6"/>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer factor={0.15} offset={3.9}>
+        <ParallaxLayer factor={0.15} offset={4.05}>
           <Footer />
         </ParallaxLayer>
       </Parallax>
