@@ -31,7 +31,6 @@ function Project({
         <h3 className="project-title">
           <span>{company}:</span> {title}
         </h3>
-        <p className="project-description">{description}</p>
       </div>
       <div className="project-overlay"></div>
     </div>

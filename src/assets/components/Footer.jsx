@@ -4,11 +4,12 @@ import React from "react";
 import github from '../img/github.svg';
 import linkedin from '../img/linkedin.svg';
 import resume from '../img/resume.svg';
+import { forwardRef } from "react";
 
-function Footer() {
+
+const Footer = forwardRef((props, ref) => {
   return (
-    <>
-      <footer>
+    <footer ref={ref} id="footer">
         <div className="footer-left">
           <a id="footer-logo" href="./index.html">
             <img src={wendyWhite} style={{height: '30px', width: 'auto'}} />
@@ -49,9 +50,8 @@ function Footer() {
             wendy_liu@berkeley.edu
           </a>
         </div>
-      </footer>
-    </>
+        </footer>
   );
-}
+});
 
 export default Footer;
