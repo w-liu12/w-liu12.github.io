@@ -11,6 +11,7 @@ import xroads from "./assets/img/xroads.png";
 import nom from "./assets/img/nom.png";
 import mobius from "./assets/img/mobius.png";
 import cloud from "./assets/img/cloud.png";
+import clock from "./assets/img/clock.png";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function Home() {
@@ -164,7 +165,7 @@ function Home() {
             company="Möbius Teach"
             title="Designed a B2B SAAS App for Accessible Learning that Raised Retention Rates by 66%"
             skills="UI/UX Design | Product Design | Prototyping"
-            link="https://www.figma.com/slides/vKKqbCyIpC9SP1sOLR6LCa/12%2F12%2F24-M%C3%B6bius-Slide-Deck?node-id=2071-193&t=9ESeQMQrnfuEBifO-1"
+            link="https://pine-canid-a47.notion.site/M-bius-Teach-1b58814b18e58074939edc30ce0f903d?pvs=4"
             className="purple"
           />
           <Project
@@ -176,17 +177,18 @@ function Home() {
             className="green"
           />
           <Project
-            image={wonderbottle}
-            company="Wonderfil"
-            title="Designed and Prototyped Bottles Saved Feature for Refill Company, Raising User Environmental Impact Awareness by 58%"
-            skills="UI/UX Design | Front-End | Full-Stack | Internship"
+            image={clock}
+            company="Wendy"
+            title="Created and Coded a Pomodoro Study Clock With HTML, CSS, and JS, Boosting Personal Productivity by 74%"
+            skills="Front-End | UI/UX Design | Project"
+            link="https://github.com/w-liu12/wdd/tree/f277190275d56a53d7396ea5b9ac8ecc7400268a/final"
             className="purple"
           />
           <Project
-            image={wonderreprint}
+            image={wonderbottle}
             company="Wonderfil"
-            title="Wireframed Reprint Feature for Zero Waste Refill Company, Addressing User Pain Points"
-            skills="UI/UX Design | Wireframing | Internship"
+            title="Designed and Prototyped Bottles Saved Feature for Refill Company, Raising User Environmental Impact Awareness by 58%"
+            skills="UI/UX Design | Front-End | Full-Stack | Internship | NDA"
             className="green"
           />
           <Project
@@ -194,6 +196,7 @@ function Home() {
             company="Crossroads"
             title="Spearheaded Visual Identity Rebrand for Christian Fellowship, Increasing Social Media Engagement by 343%"
             skills="Graphic Design | Illustration | Project"
+            link="https://www.figma.com/design/ct6HgOJeMSq40zXw6XDDu0/Crossroads-Brand-Identity?node-id=0-1&t=btpTVFI6FysrYB4H-1"
             className="purple"
           />
           <Project
@@ -201,6 +204,7 @@ function Home() {
             company="Wendy"
             title="Revamped Local Coffee Shop Website to Optimize Content Layout and Visual Appeal"
             skills="UI/UX Design | Web Development | Project"
+            link="https://github.com/w-liu12/wdd/tree/main/midterm"
             className="green"
           />
         </ParallaxLayer>

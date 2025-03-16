@@ -35,7 +35,7 @@ const Footer = forwardRef((props, ref) => {
             />
           </a>
           <a
-            href="https://wendy-liu-resume.tiiny.site"
+            href="https://www.figma.com/proto/AurGrmZy8NN7bz7RCkyfh1/Kai-Wen-Liu-Resume?page-id=0%3A1&node-id=1-2&viewport=61%2C189%2C0.6&t=MCcXrqaQFdZAQqOg-1&scaling=min-zoom&content-scaling=fixed"
             alt="resume"
             title="resume"
             target="_blank"

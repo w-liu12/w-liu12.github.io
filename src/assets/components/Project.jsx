@@ -5,7 +5,7 @@ function Project({
   image,
   company,
   title,
-  description,
+  contract,
   skills,
   link,
   className,
