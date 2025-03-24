@@ -98,7 +98,7 @@
 }
 .project-title {
   font-family: Inconsolata;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--grey);
   margin: 0;
@@ -231,4 +231,30 @@
   .project-description {
     font-size: 13px;
   }
+}
+@media (min-width: 1800px){ 
+  .project-top {
+    border-radius: 15px;
+  }
+  .project {
+    height: 650px;
+    width: 800px;
+    border-radius: 15px;
+  }
+  .project-image {
+    width: 720px;
+  }
+  .project-skills {
+    font-size: 30px;
+  }
+  .project-text {
+    width: 720px;
+  }
+  .project-title {
+    font-size: 25px;
+  }
+  .project-description {
+    font-size: 13px;
+  }
+
 }
