@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import "../css/Project.css";
 import React from "react";
 
@@ -15,12 +16,15 @@ function Project({
   return (
     <div className={`project ${variantClass}`}>
       {link ? (
+        <HashLink to={link} >
         <a href={link} alt={company} title={company} target="_blank">
           <div className="project-top">
             <img src={image} alt={title} className="project-image" />
             <h2 className="project-skills">{skills}</h2>
           </div>
         </a>
+        </HashLink>
+
       ) : (
         <div className="project-top">
           <img src={image} alt={title} className="project-image" />

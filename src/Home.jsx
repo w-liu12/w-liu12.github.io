@@ -14,6 +14,7 @@ import cloud from "./assets/img/cloud.png";
 import clock from "./assets/img/clock.png";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
+
 function Home() {
   const [numPages, setNumPages] = useState(4.2);
   const projectsRef = useRef(null);
