@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import ScrollToTop from './assets/components/ScrollToTop';
 
+import Nomado from './Nomado.jsx';
+
 function App() {
   useEffect (() => {
     window.scrollTo(0,0);
@@ -19,6 +21,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           {/* <Route path='*' element={<NoPage />} /> */}
+          <Route path='/nomado' element={<Nomado />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -29,8 +29,9 @@ function Project({
       )}
       <div className="project-text">
         <h3 className="project-title">
-          <span>{company}:</span> {title}
+          {company}
         </h3>
+        <p className="project-description">{title}</p>
       </div>
       <div className="project-overlay"></div>
     </div>

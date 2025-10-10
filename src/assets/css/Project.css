@@ -97,23 +97,23 @@
   margin: 30px 0 0 0;
 }
 .project-title {
-  font-family: Inconsolata;
-  font-size: 22px;
+  font-family: Karla;
+  font-size: 23px;
   font-weight: 500;
   color: var(--grey);
   margin: 0;
 }
-.purple .project-title span {
+.purple .project-title {
   font-weight: 700;
   color: var(--purple);
 }
-.green .project-title span {
+.green .project-title {
   font-weight: 700;
   color: var(--green);
 }
 .project-description {
   font-family: Karla;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--grey);
   margin: 0;
@@ -144,7 +144,7 @@
     font-size: 17px;
   }
   .project-description {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media (min-width: 600px) and (max-width: 800px){
@@ -173,7 +173,7 @@
     font-size: 18px;
   }
   .project-description {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 @media (min-width: 801px) and (max-width: 1019px) {
@@ -202,7 +202,7 @@
     font-size: 20px;
   }
   .project-description {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 @media (min-width: 1020px) and (max-width: 1380px) {
@@ -229,7 +229,7 @@
     font-size: 25px;
   }
   .project-description {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 @media (min-width: 1800px){ 
@@ -254,7 +254,7 @@
     font-size: 25px;
   }
   .project-description {
-    font-size: 13px;
+    font-size: 17px;
   }
 
 }

@@ -35,7 +35,7 @@ const Footer = forwardRef((props, ref) => {
             />
           </a>
           <a
-            href="https://www.figma.com/proto/AurGrmZy8NN7bz7RCkyfh1/Kai-Wen-Liu-Resume?page-id=124%3A2&node-id=124-11&viewport=225%2C287%2C0.67&t=XkDDYGPf7xEwdO0M-1&scaling=min-zoom&content-scaling=fixed"
+            href="https://www.figma.com/proto/AurGrmZy8NN7bz7RCkyfh1/Kai-Wen-Liu-Resume?page-id=124%3A2&node-id=539-126&viewport=747%2C264%2C0.17&t=P7RrnQEgqVrxkKF9-1&scaling=scale-down&content-scaling=fixed"
             alt="resume"
             title="resume"
             target="_blank"

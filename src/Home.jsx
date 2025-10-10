@@ -45,7 +45,7 @@ function Home() {
         const consistentGap = 0.1; // Reduced from 0.3 to 0.1
         
         // Calculate total pages needed: landing page + projects pages + gap + footer
-        const pagesNeeded = 1 + projectsPages + consistentGap + footerFactor;
+        const pagesNeeded = 0.9 + projectsPages + consistentGap + footerFactor;
         console.log("Pages needed:", pagesNeeded);
         
         return pagesNeeded;
@@ -153,7 +153,7 @@ function Home() {
 
         <ParallaxLayer
           offset={0.9}
-          factor={2.8}
+          factor={2.3}
           speed={0.05}
           className="projects-container"
           id="projects"
@@ -161,54 +161,62 @@ function Home() {
           style={{ top: "0" }}
         >
           <Project
+            image={clock}
+            company="Redwood Credit Union"
+            title="Revamped Member Onboarding Flow for 5,000 New Monthly Users, Boosting Completion Rates by 38%"
+            skills=" | UI/UX Design | Internship"
+            link="https://github.com/w-liu12/wdd/tree/f277190275d56a53d7396ea5b9ac8ecc7400268a/final"
+            className="green"
+          />
+          <Project
             image={mobius}
             company="Möbius Teach"
-            title="Designed a B2B SAAS App for Accessible Learning that Raised Retention Rates by 66%"
-            skills="UI/UX Design | Product Design | Prototyping"
+            title="Created a B2B SAAS App for Accessible Learning, Cutting Admin Time by 23% for Educators"
+            skills="Product Design | UX Design | Prototyping"
             link="https://pine-canid-a47.notion.site/M-bius-Teach-1b58814b18e58074939edc30ce0f903d?pvs=4"
             className="purple"
           />
           <Project
             image={nom}
             company="Nomado"
-            title="Redesigned Website to Align with New Target Audience, Increasing New Client Interest by 57%"
-            skills="UI/UX Design | Web Development | Internship"
-            link="https://pine-canid-a47.notion.site/Nomado-Website-Redesign-18a8814b18e580cba0acdf1f4ede345c?pvs=4"
+            title="Redesigned Website to Align with New Target Audience, Increasing New Client Demo Requests by 57%"
+            skills="Web Development | UI/UX Design | Internship"
+            link="/nomado"
             className="green"
           />
           <Project
-            image={clock}
-            company="Wendy"
-            title="Created and Coded a Pomodoro Study Clock With HTML, CSS, and JS, Boosting Personal Productivity by 74%"
-            skills="Front-End | UI/UX Design | Project"
-            link="https://github.com/w-liu12/wdd/tree/f277190275d56a53d7396ea5b9ac8ecc7400268a/final"
+            image={nom}
+            company="SMB Market"
+            title="Discovered and Solved New User Onboarding Confusion, Boosting User Ratings by 72%"
+            skills="Web Development | UX Design | Internship"
+            link="/nomado"
             className="purple"
           />
-          <Project
+          {/* <Project
             image={wonderbottle}
             company="Wonderfil"
             title="Designed and Prototyped Bottles Saved Feature for Refill Company, Raising User Environmental Impact Awareness by 58%"
             skills="UI/UX Design | Front-End | Full-Stack | Internship | NDA"
             className="green"
-          />
-          <Project
+          /> */}
+          {/* <Project
             image={xroads}
             company="Crossroads"
             title="Spearheaded Visual Identity Rebrand for Christian Fellowship, Increasing Social Media Engagement by 343%"
             skills="Graphic Design | Illustration | Project"
             link="https://www.figma.com/design/ct6HgOJeMSq40zXw6XDDu0/Crossroads-Brand-Identity?node-id=0-1&t=btpTVFI6FysrYB4H-1"
             className="purple"
-          />
-          <Project
+          /> */}
+          {/* <Project
             image={sodoi}
             company="Wendy"
             title="Revamped Local Coffee Shop Website to Optimize Content Layout and Visual Appeal"
             skills="UI/UX Design | Web Development | Project"
             link="https://github.com/w-liu12/wdd/tree/main/midterm"
             className="green"
-          />
+          /> */}
         </ParallaxLayer>
-        <ParallaxLayer offset={2.3} speed={-0.5} className="cloud">
+        <ParallaxLayer offset={2.3} speed={-1} className="cloud">
           <div className="cloud-container cloud6">
             <img src={cloud} className="cloud-image" id="cloud6" />
           </div>
