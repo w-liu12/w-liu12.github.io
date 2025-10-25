@@ -39,32 +39,32 @@ function Nomado() {
           className="gradient-image"
           alt="Gradient Background"
         />
-        <h1 className="study-title">Nomado Website Redesign</h1>
+        <h1 className="study-title theme-green">Nomado Website Redesign</h1>
         <div className="study-info">
-          <hr className="study-divider" />
+          <hr className="study-divider theme-green" />
           <div className="study-info-row">
             <div className="study-info-item">
-              <p className="info-label">ROLE</p>
+              <p className="info-label theme-green">ROLE</p>
               <p className="info-value">Point Web Developer & Designer</p>
             </div>
             <div className="study-info-item">
-              <p className="info-label">TOOLS</p>
+              <p className="info-label theme-green">TOOLS</p>
               <p className="info-value">Figma, Photoshop, SquareSpace</p>
             </div>
           </div>
           <div className="study-info-row">
             <div className="study-info-item">
-              <p className="info-label">TIMELINE</p>
+              <p className="info-label theme-green">TIMELINE</p>
               <p className="info-value">2 Months</p>
             </div>
             <div className="study-info-item">
-              <p className="info-label">SKILLS</p>
+              <p className="info-label theme-green">SKILLS</p>
               <p className="info-value">UX/UI Design, Web Development</p>
             </div>
           </div>
-          <hr className="study-divider" />
+          <hr className="study-divider theme-green" />
           <div className="study-section" id="overview ">
-            <h2 className="study-subtitle">OVERVIEW</h2>
+            <h2 className="study-subtitle theme-green">OVERVIEW</h2>
             <div className="study-subsubsection">
               <p className="study-subsubtitle">What is Nomado?</p>
               <p className="study-text">
@@ -77,11 +77,11 @@ function Nomado() {
               <p className="study-subsubtitle">The Problem</p>
               <p className="study-text">
                 Nomado underwent a rebrand and{" "}
-                <span>shifted their target clients</span> from restaurants to
-                high-end hotels. However, their website which promoted the
-                product did not reflect this change,{" "}
-                <span>creating a mismatch</span> between its brand identity and
-                its target clientele.
+                <span class="theme-green">shifted their target clients</span>{" "}
+                from restaurants to high-end hotels. However, their website
+                which promoted the product did not reflect this change,{" "}
+                <span class="theme-green">creating a mismatch</span> between its
+                brand identity and its target clientele.
               </p>
             </div>
             <div className="study-subsubsection">
@@ -89,35 +89,37 @@ function Nomado() {
               <p className="study-text">
                 I was tasked to redesign and develop a landing page that is
                 easy-to-use and clearly communicates Nomado’s{" "}
-                <span>value proposition</span>
+                <span class="theme-green">value proposition</span>
                 in an engaging manner to high-end hotel clients. I was primarily
                 on my own but had the Design Director as a close consultant.
               </p>
             </div>
           </div>
-          <hr className="study-divider" />
+          <hr className="study-divider theme-green" />
           <div className="study-section" id="design-process">
-            <h2 className="study-subtitle">DESIGN PROCESS</h2>
+            <h2 className="study-subtitle theme-green">DESIGN PROCESS</h2>
             <div className="study-subsubsection">
               <p className="study-subsubtitle">Discovery</p>
               <p className="study-text">
                 As someone who wasn’t too familiar with the hotel business
-                space, I conducted <span>in-depth interviews</span> with the
+                space, I conducted{" "}
+                <span class="theme-green">in-depth interviews</span> with the
                 company’s CEO, Creative Director, and the business director to
                 gather insight into the audience Nomado was targeting. I also
-                conducted <span>market research</span> into typical luxury hotel
-                websites, products, and brand identity, which led me to the
-                conclusion that luxury hotels prioritize:
+                conducted <span class="theme-green">market research</span> into
+                typical luxury hotel websites, products, and brand identity,
+                which led me to the conclusion that luxury hotels prioritize:
               </p>
               <div className="study-items-container">
                 <div className="study-items">
                   <p className="study-item">💆‍♀️ Seamless Guest Experiences</p>
-                  <p className="study-item">🛎️ High-Quality Service.</p>
+                  <p className="study-item">🛎️ High-Quality Service</p>
                 </div>
               </div>
               <p className="study-text">
-                I also conducted <span>user testing</span> on the current
-                website with 6 individuals, revealing 4 key issues:
+                I also conducted <span class="theme-green">user testing</span>{" "}
+                on the current website with 6 individuals, revealing 4 key
+                issues:
               </p>
               <div className="study-items-container">
                 <div className="study-items" style={{ margin: "0" }}>
@@ -133,15 +135,17 @@ function Nomado() {
                   <div className="study-item-group-text">
                     <p className="study-item">🥱 Unengaging Visual Design</p>
                     <p className="study-text">
-                      Users felt the design was bland and didn't reflect a luxury product.
+                      Users felt the design was bland and didn't reflect a
+                      luxury product.
                     </p>
                   </div>
                 </div>
                 <div className="study-items">
-                <div className="study-item-group-text">
+                  <div className="study-item-group-text">
                     <p className="study-item">📠 Outdated Information</p>
                     <p className="study-text">
-                      Users found some information on the site to be old and not reflective of the current product offerings.
+                      Users found some information on the site to be old and not
+                      reflective of the current product offerings.
                     </p>
                   </div>
                   <div className="study-item-group-text">
@@ -154,9 +158,11 @@ function Nomado() {
                 </div>
               </div>
               <p className="study-text">
-                Finally, I conducted a <span>competitive analysis</span> on our
+                Finally, I conducted a{" "}
+                <span class="theme-green">competitive analysis</span> on our
                 competitors to uncover key{" "}
-                <span>differentiation opportunities</span> for Nomado:
+                <span class="theme-green">differentiation opportunities</span>{" "}
+                for Nomado:
               </p>
               <div className="study-items-container">
                 <div className="study-items">
@@ -172,33 +178,38 @@ function Nomado() {
               <p className="study-text">
                 High-end clients only offered products that met their standards
                 and branding. My findings highlighted the{" "}
-                <span>need for a high-end digital presence</span> that aligns
-                with the sophistication expected in luxury hospitality and
-                differentiated us from our competitors.
+                <span class="theme-green">
+                  need for a high-end digital presence
+                </span>{" "}
+                that aligns with the sophistication expected in luxury
+                hospitality and differentiated us from our competitors.
               </p>
               <p className="study-text">
                 To address the usability issues and confusion in the current
-                site, I focused on proper <span>information architecture</span>{" "}
-                and finding a clear user flow for users to easily{" "}
-                <span>understand Nomado’s value proposition and act:</span>
+                site, I focused on proper{" "}
+                <span class="theme-green">information architecture</span> and
+                finding a clear user flow for users to easily{" "}
+                <span class="theme-green">
+                  understand Nomado’s value proposition and act:
+                </span>
               </p>
               <ol className="study-list">
                 <li className="study-list-item">
-                  <span>Landing:</span> An immersive screen to capture
-                  attention.
+                  <span class="theme-green">Landing:</span> An immersive screen
+                  to capture attention.
                 </li>
                 <li className="study-list-item">
-                  <span>Exploration:</span> Product pitch, features, and
-                  testimonials to build trust and understanding.
+                  <span class="theme-green">Exploration:</span> Product pitch,
+                  features, and testimonials to build trust and understanding.
                 </li>
                 <li className="study-list-item">
-                  <span>Decision Point:</span> Users decide to engage further
-                  with the journal or request a demo
+                  <span class="theme-green">Decision Point:</span> Users decide
+                  to engage further with the journal or request a demo
                 </li>
                 <li className="study-list-item">
-                  <span>Request a Demo:</span> The ultimate goal for users to
-                  reach in this flow, signaling strong interest and potential
-                  conversation.
+                  <span class="theme-green">Request a Demo:</span> The ultimate
+                  goal for users to reach in this flow, signaling strong
+                  interest and potential conversation.
                 </li>
               </ol>
               <img src={userflow} />
@@ -218,8 +229,9 @@ function Nomado() {
                   <p className="image-text-description">
                     I pitched a scroll wheel function to view the product’s key
                     features, enabling users to quickly browse without having to
-                    navigate away from the page, increasing the <span>likelihood of
-                    users staying</span> on the page longer.
+                    navigate away from the page, increasing the{" "}
+                    <span class="theme-green">likelihood of users staying</span>{" "}
+                    on the page longer.
                   </p>
                 </div>
               </div>
@@ -229,10 +241,11 @@ function Nomado() {
                   <p className="image-text-title"> 📖 A Journal Call Out</p>
                   <p className="image-text-description">
                     The journal is a page with supplementary information that
-                    interviewees found <span>crucial for decision-making</span>. By adding a
-                    call out to it on the landing page, the info-seeking process
-                    is made seamless while increasing the likelihood of users
-                    viewing it.
+                    interviewees found{" "}
+                    <span class="theme-green">crucial for decision-making</span>
+                    . By adding a call out to it on the landing page, the
+                    info-seeking process is made seamless while increasing the
+                    likelihood of users viewing it.
                   </p>
                 </div>
               </div>
@@ -265,8 +278,9 @@ function Nomado() {
                 User testing on my lo-fi wireframe revealed that vanilla design
                 still failed to capture that bespoke vision we were aiming for.
                 After further research, I found that luxury clients will utilize
-                <span> large, real-life images</span> to induce a feeling of immersive
-                presence, which led me to this mid-fi mockup:
+                <span class="theme-green"> large, real-life images</span> to
+                induce a feeling of immersive presence, which led me to this
+                mid-fi mockup:
               </p>
               <video
                 className="VideoTag"
@@ -291,7 +305,10 @@ function Nomado() {
                 </p>
                 <p className="study-text-section-content">
                   The scroll wheel failed to engage users in the product
-                  features, as they <span>rarely clicked through all of the options.</span>
+                  features, as they{" "}
+                  <span class="theme-green">
+                    rarely clicked through all of the options.
+                  </span>
                   To address this, I redirected the feature exploration to be
                   fully scrollable but still interactive to allow ease of
                   navigation.
@@ -320,10 +337,14 @@ function Nomado() {
               <div className="study-text-section">
                 <p className="study-text-section-title">✉️ Schedule a Demo</p>
                 <p className="study-text-section-content">
-                  The <span>ultimate goal is for users to Request a Demo</span>, so the demo
-                  request needed to be more impressionable. So I implemented an
-                  actual envelope at the end to reflect a luxurious invitation
-                  and expanded the section to fill the entire page to fit the rest of the site branding.
+                  The{" "}
+                  <span class="theme-green">
+                    ultimate goal is for users to Request a Demo
+                  </span>
+                  , so the demo request needed to be more impressionable. So I
+                  implemented an actual envelope at the end to reflect a
+                  luxurious invitation and expanded the section to fill the
+                  entire page to fit the rest of the site branding.
                 </p>
               </div>
               <div className="study-img-compare">
@@ -342,8 +363,10 @@ function Nomado() {
               <p className="study-subsubtitle">Final Prototype</p>
               <p className="study-text">
                 These insights led me to my final prototype for the landing page
-                that blends <span>luxury and high-tech</span>, clearly indicating Nomado’s
-                value proposition and engaging users to explore the product:
+                that blends{" "}
+                <span class="theme-green">luxury and high-tech</span>, clearly
+                indicating Nomado’s value proposition and engaging users to
+                explore the product:
               </p>
               <video
                 className="VideoTag"
@@ -381,9 +404,9 @@ function Nomado() {
               </video>
             </div>
           </div>
-          <hr className="study-divider" />
+          <hr className="study-divider theme-green" />
           <div className="study-section" id="reflections">
-            <h2 className="study-subtitle">REFLECTIONS</h2>
+            <h2 className="study-subtitle theme-green">REFLECTIONS</h2>
             <div className="study-subsubsection">
               <p className="study-subsubtitle">Results & Takeaways</p>
               <p className="study-text">
@@ -397,15 +420,18 @@ function Nomado() {
                   {" "}
                   Nomado.tech
                 </a>
-                . The new website increased new viewership by <span>36%</span>,
-                decreased user bounce rate by <span>24%</span>, and increased
-                new client demo inquiries by <span>83%</span>.
+                . The new website increased new viewership by{" "}
+                <span class="theme-green">36%</span>, decreased user bounce rate
+                by <span class="theme-green">24%</span>, and increased new
+                client demo inquiries by <span class="theme-green">83%</span>.
               </p>
               <p className="study-text">
                 The CEO reached out a couple weeks after the completion of the
-                project informing me of <span>2 new big-name luxury hotels</span> that joined
-                Nomado’s roster—exciting! He was also no longer embarrassed to
-                direct his clients to the website for more information.
+                project informing me of{" "}
+                <span class="theme-green">2 new big-name luxury hotels</span>{" "}
+                that joined Nomado’s roster—exciting! He was also no longer
+                embarrassed to direct his clients to the website for more
+                information.
               </p>
               <div
                 className="study-image-text"
@@ -415,26 +441,51 @@ function Nomado() {
                   <p className="image-text-title">⏱️ Time Constraints</p>
                   <p className="image-text-description">
                     This experience taught me to be adaptable and resourceful to
-                    keep up with a <span>fast-paced environment</span> and shifting
-                    deadlines. I juggled designing and programming for 2 months,
-                    sometimes needing to rely on <span>my own design intuition</span> to meet
-                    deadlines. Despite the lack of time and experience, I leaned
-                    on my online research and user testing to validate my design
-                    decisions.
+                    keep up with a{" "}
+                    <span class="theme-green">fast-paced environment</span> and
+                    shifting deadlines. I juggled designing and programming for
+                    2 months, sometimes needing to rely on{" "}
+                    <span class="theme-green">my own design intuition</span> to
+                    meet deadlines. Despite the lack of time and experience, I
+                    leaned on my online research and user testing to validate my
+                    design decisions.
                   </p>
                 </div>
                 <div className="image-text-content">
                   <p className="image-text-title">👥 Taking Critiques</p>
                   <p className="image-text-description">
                     I worked closely with the CEO and Design Director throughout
-                    this process, learning to <span>balance user and business needs</span>.
-                    For example, I wanted to shorten the user journey as much as
-                    possible, but learned we wanted to engage users to take
+                    this process, learning to{" "}
+                    <span class="theme-green">
+                      balance user and business needs
+                    </span>
+                    . For example, I wanted to shorten the user journey as much
+                    as possible, but learned we wanted to engage users to take
                     their time exploring the product. This was my first exposure
-                    to critical design feedback and I learned to <span>transform it
-                    into tangible change</span>.
+                    to critical design feedback and I learned to{" "}
+                    <span class="theme-green">
+                      transform it into tangible change
+                    </span>
+                    .
                   </p>
                 </div>
+              </div>
+              <div className="study-subsubsection">
+                <p className="study-subsubtitle">Looking Back</p>
+                <p className="study-text" style={{ marginBottom: "60px" }}>
+                  This project was my first end-to-end design and development
+                  experience, teaching me how to{" "}
+                  <span class="theme-green">
+                    independently manage a project
+                  </span>
+                  . I learned to conduct user interviews, create wireframes and
+                  prototypes, and program a fully functional website. I also
+                  learned to{" "}
+                  <span class="theme-green">balance user and business needs</span>
+                  , taking into account both perspectives in my design process.
+                  Overall, this experience has given me confidence in my ability
+                  to take on future design and development projects.
+                </p>
               </div>
             </div>
           </div>

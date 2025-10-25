@@ -13,6 +13,7 @@ import mobius from "./assets/img/mobius.png";
 import cloud from "./assets/img/cloud.png";
 import clock from "./assets/img/clock.png";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import redwood from "./assets/img/redwood.png";
 
 
 function Home() {
@@ -154,7 +155,7 @@ function Home() {
 
         <ParallaxLayer
           offset={0.9}
-          factor={2.3}
+          factor={1.8}
           speed={0.05}
           className="projects-container"
           id="projects"
@@ -162,11 +163,11 @@ function Home() {
           style={{ top: "0" }}
         >
           <Project
-            image={clock}
+            image={redwood}
             company="Redwood Credit Union"
-            title="Revamped Member Onboarding Flow for 5,000 New Monthly Users, Boosting Completion Rates by 38%"
-            skills=" | UI/UX Design | Internship"
-            link="https://github.com/w-liu12/wdd/tree/f277190275d56a53d7396ea5b9ac8ecc7400268a/final"
+            title="Revamped Member Onboarding Flow for 5,000+ New Monthly Users, Boosting Completion Rates by 38%"
+            skills="Cross-Functional Collab | UX/UI Design | Internship"
+            link="/redwood"
             className="green"
           />
           <Project
@@ -174,7 +175,7 @@ function Home() {
             company="Möbius Teach"
             title="Created a B2B SAAS App for Accessible Learning, Cutting Admin Time by 23% for Educators"
             skills="Product Design | UX Design | Prototyping"
-            link="https://pine-canid-a47.notion.site/M-bius-Teach-1b58814b18e58074939edc30ce0f903d?pvs=4"
+            link="/mobius"
             className="purple"
           />
           <Project
@@ -185,14 +186,14 @@ function Home() {
             link="/nomado"
             className="green"
           />
-          <Project
+          {/* <Project
             image={nom}
             company="SMB Market"
             title="Discovered and Solved New User Onboarding Confusion, Boosting User Ratings by 72%"
             skills="Web Development | UX Design | Internship"
             link="/nomado"
             className="purple"
-          />
+          /> */}
           {/* <Project
             image={wonderbottle}
             company="Wonderfil"
@@ -217,7 +218,7 @@ function Home() {
             className="green"
           /> */}
         </ParallaxLayer>
-        <ParallaxLayer offset={2.3} speed={-1} className="cloud">
+        <ParallaxLayer offset={1.8} speed={-1} className="cloud">
           <div className="cloud-container cloud6">
             <img src={cloud} className="cloud-image" id="cloud6" />
           </div>
